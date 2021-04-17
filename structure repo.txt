@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+struct student
+{
+char std_name[50];
+int std_ID, marks;
+int std_date[3];
+int num;
+} s[10];
+
+int main() 
+{
+printf("Welcome, please enter the information of students :\n");
+
+}
+
+    return 0;
+} 
