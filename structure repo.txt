@@ -7,7 +7,7 @@ char std_name[50];
 int std_ID, marks;
 int std_date[3];
 int num;
-} s[10];
+};
 
 int main() 
 {
