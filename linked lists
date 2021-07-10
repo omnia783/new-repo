@@ -30,6 +30,7 @@ int main()
   printf("The list of the students is as follows: \n");
   display();
   int finish = clock();
+  printf("The time in seconds is %f",(double)(finish-start)/CLOCKS_PER_SEC);
     return 0;
 }
 void createLinkedList()
